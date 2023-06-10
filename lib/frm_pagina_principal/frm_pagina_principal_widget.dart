@@ -77,7 +77,7 @@ class _FrmPaginaPrincipalWidgetState extends State<FrmPaginaPrincipalWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.41, -0.52),
+                alignment: AlignmentDirectional(-0.37, -0.52),
                 child: Text(
                   'Ver Reportes',
                   style: FlutterFlowTheme.of(context).bodyMedium,
@@ -99,14 +99,14 @@ class _FrmPaginaPrincipalWidgetState extends State<FrmPaginaPrincipalWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.13, -0.95),
+                alignment: AlignmentDirectional(-0.08, -0.81),
                 child: Text(
                   'Bienvenido',
                   style: FlutterFlowTheme.of(context).titleLarge,
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.1, -0.86),
+                alignment: AlignmentDirectional(-0.12, -0.74),
                 child: Text(
                   currentUserEmail,
                   style: FlutterFlowTheme.of(context).titleLarge,
@@ -138,6 +138,21 @@ class _FrmPaginaPrincipalWidgetState extends State<FrmPaginaPrincipalWidget> {
                     'Cerrar Sesion',
                     style: FlutterFlowTheme.of(context).bodyMedium,
                   ),
+                ),
+              ),
+              Align(
+                alignment: AlignmentDirectional(-0.92, 0.24),
+                child: Icon(
+                  Icons.person,
+                  color: FlutterFlowTheme.of(context).secondaryText,
+                  size: 30.0,
+                ),
+              ),
+              Align(
+                alignment: AlignmentDirectional(-0.49, 0.24),
+                child: Text(
+                  'Registrar_Usuario',
+                  style: FlutterFlowTheme.of(context).bodyMedium,
                 ),
               ),
             ],

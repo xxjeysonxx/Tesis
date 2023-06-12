@@ -22,7 +22,9 @@ samples, guidance on mobile development, and a full API reference.
 
 ### Lista de BUGS:
 -el front no se muestra en pantallas grandes
+
 -el back guarda una tupla al entrar a la pantalla de registrar
+
 -el back guarda la tupla una vez que sales de la pantalla de registro
 
 

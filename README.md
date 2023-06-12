@@ -18,3 +18,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+### Lista de BUGS:
+-el front no se muestra en pantallas grandes
+-el back guarda una tupla al entrar a la pantalla de registrar
+-el back guarda la tupla una vez que sales de la pantalla de registro
+
+
+abajo hay un label que solo los admins se suponia que pueden verlo eso es por los roles de id
+
+los usuarios los registra perfectamente

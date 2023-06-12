@@ -25,12 +25,12 @@ samples, guidance on mobile development, and a full API reference.
 
 -el back guarda una tupla al entrar a la pantalla de registrar
 
-
-https://w0.peakpx.com/wallpaper/452/875/HD-wallpaper-tired-anime-girl-sleep-girl-anime-computer-tired-woman-doll.jpg
-
 -el back guarda la tupla una vez que sales de la pantalla de registro
 
 
 abajo hay un label que solo los admins se suponia que pueden verlo eso es por los roles de id
 
 los usuarios los registra perfectamente
+
+
+<img src="https://w0.peakpx.com/wallpaper/452/875/HD-wallpaper-tired-anime-girl-sleep-girl-anime-computer-tired-woman-doll.jpg" alt="Alt text" title="Optional title">

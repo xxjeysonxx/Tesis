@@ -6,4 +6,4 @@ export 'row.dart';
 export 'table.dart';
 
 export 'tables/usuarios.dart';
-export 'tables/path_test.dart';
+export 'tables/reportes.dart';

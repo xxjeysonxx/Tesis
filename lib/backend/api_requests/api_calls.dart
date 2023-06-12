@@ -9,12 +9,12 @@ export 'api_manager.dart' show ApiCallResponse;
 
 const _kPrivateApiFunctionName = 'ffPrivateApiCall';
 
-class ReportesGetCall {
+class ArticulosGETCall {
   static Future<ApiCallResponse> call() {
     return ApiManager.instance.makeApiCall(
-      callName: 'reportesGet',
+      callName: 'ArticulosGET',
       apiUrl:
-          'https://prppgvikeyzakcufjuov.supabase.co/rest/v1/reportes?select=*',
+          'https://prppgvikeyzakcufjuov.supabase.co/rest/v1/articulos?select=*',
       callType: ApiCallType.GET,
       headers: {
         'apikey':
@@ -31,31 +31,25 @@ class ReportesGetCall {
   }
 }
 
-class ReportesPutCall {
+class ArticulosPostCall {
   static Future<ApiCallResponse> call({
-    int? id,
-    String? categoria = '',
-    String? caso = '',
-    String? descripcion = '',
-    List<String>? imagePathList,
-    String? ubicacion = '',
+    String? categoria = '0',
+    String? caso = '0',
+    String? ubicacion = '0',
+    String? descripcion = '0',
   }) {
-    final imagePath = _serializeList(imagePathList);
-
     final body = '''
 [
   {
-    "id": ${id},
     "categoria": "${categoria}",
     "caso": "${caso}",
     "ubicacion": "${ubicacion}",
-    "Descripcion": "${descripcion}",
-    "image_path":"${imagePath}" 
+    "Descripcion": "${descripcion}"
   }
 ]''';
     return ApiManager.instance.makeApiCall(
-      callName: 'ReportesPut',
-      apiUrl: 'https://prppgvikeyzakcufjuov.supabase.co/rest/v1/reportes',
+      callName: 'ArticulosPost',
+      apiUrl: 'https://prppgvikeyzakcufjuov.supabase.co/rest/v1/articulos',
       callType: ApiCallType.POST,
       headers: {
         'apikey':

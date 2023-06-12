@@ -101,9 +101,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => FrmPaginaPrincipalWidget(),
         ),
         FFRoute(
-          name: 'frm_crear_reporte',
-          path: '/frmCrearReporte',
-          builder: (context, params) => FrmCrearReporteWidget(),
+          name: 'reports',
+          path: '/reports',
+          builder: (context, params) => ReportsWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

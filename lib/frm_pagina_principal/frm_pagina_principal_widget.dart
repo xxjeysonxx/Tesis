@@ -60,7 +60,7 @@ class _FrmPaginaPrincipalWidgetState extends State<FrmPaginaPrincipalWidget> {
                   hoverColor: Colors.transparent,
                   highlightColor: Colors.transparent,
                   onTap: () async {
-                    context.pushNamed('frm_crear_reporte');
+                    context.pushNamed('reports');
                   },
                   child: Text(
                     'Crear Reporte',

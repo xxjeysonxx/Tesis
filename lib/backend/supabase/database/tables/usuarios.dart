@@ -17,12 +17,9 @@ class UsuariosRow extends SupabaseDataRow {
   int get id => getField<int>('id')!;
   set id(int value) => setField<int>('id', value);
 
-  DateTime? get createdAt => getField<DateTime>('created_at');
-  set createdAt(DateTime? value) => setField<DateTime>('created_at', value);
+  String? get usuario => getField<String>('usuario');
+  set usuario(String? value) => setField<String>('usuario', value);
 
-  String? get email => getField<String>('email');
-  set email(String? value) => setField<String>('email', value);
-
-  String? get imagen => getField<String>('imagen');
-  set imagen(String? value) => setField<String>('imagen', value);
+  String? get contrasena => getField<String>('contraseña');
+  set contrasena(String? value) => setField<String>('contraseña', value);
 }
